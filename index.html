@@ -94,43 +94,78 @@
                 <p class="buildingTitle">RYAN CENTER (BIENEN)</p>
             </div>
         </div>
-        <p class="descriptionText"> These three buildings have the lethal trifecta: <br>
-            proximity to the lakefill, large size, and abundance of glass. <br>
-            Together, they cause an average of 152 bird deaths every fall and every spring.</p>
+        
          <div class="PopUpVis"><!--for pop ups -->
-            <p>Click on each building to learn more about the birds affected.</p>
+            <p class="descriptionText hoverText">Click on each building to learn more about the birds affected.</p>
             <div class="PopUps">
-                <a class="button" href="#popup1"><img src="muddBuilding.jpg"></img></a>
+                <div class="PopUpsButton">
+                    <a class="button" href="#popup1"><img src="muddBuilding.jpg"></img></a>
+                    <p class="buildingTitle">MUDD LIBRARY</p>
+                </div>
                 <div id="popup1" class="overlay">
                     <div class="popup">
                         <h2>Mudd Library Bird Collisions 2017-2020</h2>
-                        <a class="close" href="#">&times;</a>
+                        <a class="close" href="#PopUpVis">&times;</a>
                         <div class="content">
-                            <p>This is done totally without JavaScript. Just HTML and CSS.</p>
+                            <div class="buildingCharts">
+                                <div>
+                                    <h2>Flight Direction</h2>
+                                    <img class="CompImg" src="muddCompass.png"></img>
+                                </div>
+                                <div>
+                                    <h2>Bird Species</h2>
+                                    <img class="BirdImg" src="robobirdMudd.png"></img>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <a class="button" href="#popup2"><img src="kelloggBuilding.jpg"></img></a>
+                <div class="PopUpsButton">
+                    <a class="button" href="#popup2"><img src="kelloggBuilding.jpg"></img></a>
+                    <p class="buildingTitle">KELLOGG GLOBAL HUB</p>
+                </div>
                 <div id="popup2" class="overlay">
                     <div class="popup">
                         <h2>Kellogg Global Hub Bird Collisions 2017-2020</h2>
-                        <a class="close" href="#">&times;</a>
+                        <a class="close" href="#PopUpVis">&times;</a>
                         <div class="content">
-                            <p>This is done totally without JavaScript. Just HTML and CSS.</p>
+                            <div class="buildingCharts">
+                                <div>
+                                    <h2>Flight Direction</h2>
+                                    <img class="CompImg" src="kelloggCompass.png"></img>
+                                </div>
+                                <div>
+                                    <h2>Bird Species</h2>
+                                    <img class="BirdImg" src="robobirdKellogg.png"></img>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <a class="button" href="#popup3"><img src="bienenBuilding.jpg"></img></a>
+                <div class="PopUpsButton">
+                    <a class="button" href="#popup3"><img src="bienenBuilding.jpg"></img></a>
+                    <p class="buildingTitle">RYAN CENTER (BIENEN)</p>
+                </div>
                 <div id="popup3" class="overlay">
                     <div class="popup">
                         <h2>Ryans Center Bird Collisions 2017-2020</h2>
-                        <a class="close" href="#">&times;</a>
+                        <a class="close" href="#PopUpVis">&times;</a>
                         <div class="content">
-                            <p>This is done totally without JavaScript. Just HTML and CSS.</p>
+                            <div class="buildingCharts">
+                                <div>
+                                    <h2>Flight Direction</h2>
+                                    <img class="CompImg" src="ryanartsCompass.png"></img>
+                                </div>
+                                <div>
+                                    <h2>Bird Species</h2>
+                                    <img class="BirdImg" src="robobirdBienen.png"></img>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
         </div>
+        
             
 
 
@@ -138,6 +173,10 @@
         </div>
         
     </div>
+
+    <p class="descriptionText"> These three buildings have the lethal trifecta: <br>
+        proximity to the lakefill, large size, and abundance of glass. <br>
+        Together, they cause an average of 152 bird deaths every fall and every spring.</p>
 
     <div class="Conclusion"> <!--could be fleshed out some more-->
         <h2 class="questionText">Where to go from here?</h2>
