@@ -1,12 +1,10 @@
 body {
   text-align: center;
+  font-family: Arial;
+  background-image: url("background.jpg");
+  background-repeat: repeat;
+  background-size: contain;
 }
-
-h1,h2,h5 {
-    font-family: Arial;
-}
-
-
 
 .overallTitle {
   font-size: xx-large;
@@ -52,6 +50,12 @@ h1,h2,h5 {
 .dataBackground {
   padding-left: 200px;
   padding-right: 200px;
+}
+
+.hoverText {
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  font-style: italic;
 }
 
 
