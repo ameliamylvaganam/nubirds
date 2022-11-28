@@ -4,7 +4,6 @@ body {
   background-image: url("background.jpg");
   background-repeat: repeat;
   background-size: contain;
-  width: 100vw;
 }
 
 .overallTitle {
@@ -184,6 +183,7 @@ body {
   }
   
   .popup {
+    width: 90vw;
     position: absolute;
     top:0px;
     left:100px;
