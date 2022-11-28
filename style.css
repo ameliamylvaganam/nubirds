@@ -150,7 +150,7 @@ body {
   .popup h2 {
     margin-top: 0;
     color: #666;
-    font-family: "Trebuchet MS", Tahoma, Arial, sans-serif;
+    font-family: "Arial", Tahoma, Arial, sans-serif;
   }
   .popup .close {
     position: absolute;
@@ -170,7 +170,7 @@ body {
     opacity: 1;
   }
   .popup .content {
-    max-height: 650px;
+    max-height: 675px;
     overflow: auto;
   }
   .popup p {
@@ -215,4 +215,10 @@ body {
   .buildingCharts .div{
     align-items: center;
   }
+
+  .buildingCharts h2{
+    padding-right: 20px;
+  }
+
+
 
