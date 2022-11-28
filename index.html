@@ -9,51 +9,112 @@
 </head>
 <body>
    <div class="Introduction">
-        <header>Bird Collisions On Northwestern's Campus</header>
-        <p class="introBg">
-          Chicago is not the friendliest place for migratory birds. In fact, the city ranks as the deadliest in the US. <br>
-          Northwestern’s Evanston campus is no exception, where an average of 205 birds die from collisions every fall and every spring. <br>
-          Some Northwestern buildings are more lethal than others. <br>
-          These three are recorded as the most deadly: <br>
-
+        <header class="overallTitle">Bird Collisions On Northwestern's Campus</header>
+        <p class="introBg descriptionText">
+            Chicago is not the friendliest place for migratory birds. In fact, the city ranks as the deadliest in the US. <br>
+            Northwestern's Evanston campus is no exception, where an average of 205 birds die from collisions each fall and spring. <br> <br>
+            Some Northwestern buildings are more lethal than others. <br>
+            The three pictured below are recorded as the most deadly. <br>
         </p>
-        <div class="MuddIntro"><!--for mudd library background-->
+        <div class="topThree">
+            <div class="MuddIntro"><!--for mudd library background-->
+                <img class="top3img" src="mudd.jpg"/>
+                <p class="buildingTitle">MUDD LIBRARY</p>
+                <p class="buildingStats">
+                    29 average, 60 max <br>
+                    bird deaths per quarter
+                </p>
+            </div>
+            <div class="KelloggIntro"><!--for kellogg background-->
+                <img class="top3img" src="kellogg.jpg"/>
+                <p class="buildingTitle">KELLOGG GLOBAL HUB</p>
+                <p class="buildingStats">
+                    84 average, 165 max <br>
+                    bird deaths per quarter
+                </p>
 
+            </div>
+            <div class="BienenIntro"><!--for bienen background-->
+                <img class="top3img" src="bienen.jpg"/>
+                <p class="buildingTitle">RYAN CENTER (BIENEN)</p>
+                <p class="buildingStats">
+                    39 average, 84 max <br>
+                    bird deaths per quarter
+                </p>
+            </div>
         </div>
-        <div class="KelloggIntro"><!--for kellogg background-->
-
-        </div>
-        <div class="BienenIntro"><!--for bienen background-->
-            
-        </div>
-        <p class="introBg2">What do these buildings have in common?</p>
+        <p class="introBg2 questionText">What do these buildings have in common?</p>
    </div>
 
    <div class="Visuals">
         <div class="HeatMapVis"><!--for Heat map-->
+            <p class="descriptionText"> Let's take a look at Northwestern's campus geographical layout.</p>
+            <img src="heatmap.png" height="600"/>
+            <p class="heatMapDesc descriptionText">
+                Northwestern's lakefill is a popular stop for migratory birds looking for rest and shelter. <br>
+                Therefore, it is no surprise that many birds fatally collide with buildings proximal to the lakefill.
+
+            </p>
 
         </div>
         <div class="PropAreaVis"><!--for proprortional area chart-->
-            <script type='module' src='https://prod-useast-a.online.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js'></script>
-            <tableau-viz id='tableau-viz' src='https://prod-useast-a.online.tableau.com/t/tenali10/views/Book1/Sheet2' width='1398' height='622' hide-tabs toolbar='bottom' ></tableau-viz>
+            <img src="areachart.png" height="500"/>
+            <p class="PropAreaDesc descriptionText"> 
+                It seems, the larger the building, the bigger the target.
+            </p>
+        
         </div>
         <div class="BarVis"><!--for material bar chart -->
-            <script type='module' src='https://prod-useast-a.online.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js'></script>
-            <tableau-viz id='tableau-viz' src='https://prod-useast-a.online.tableau.com/t/tenali10/views/BirdCollisionsBuildingtypes/Dashboard1' width='1000' height='827' hide-tabs toolbar='bottom' ></tableau-viz>
+            <img src="materialsViz.jpeg" height="400"/>
+            <p class="BarDesc descriptionText"> 
+                Additionally, buildings with a higher proportion of glass are the most deceptive to birds who will mistake the reflective surfaces for sky and trees. <br>
+                Migratory birds often come from regions with more open space or forests, so many of them have never seen glass before.
+            </p>
         </div>
+        <div class="topThree">
+            <div class="MuddIntro"><!--for mudd library background-->
+                <img class="top3img" src="mudd.jpg"/>
+                <p class="buildingTitle">MUDD LIBRARY</p>
+            </div>
+            <div class="KelloggIntro"><!--for kellogg background-->
+                <img class="top3img" src="kellogg.jpg"/>
+                <p class="buildingTitle">KELLOGG GLOBAL HUB</p>
+
+            </div>
+            <div class="BienenIntro"><!--for bienen background-->
+                <img class="top3img" src="bienen.jpg"/>
+                <p class="buildingTitle">RYAN CENTER (BIENEN)</p>
+            </div>
+        </div>
+        <p class="descriptionText"> SUMMARY HERE</p>
          <div class="PopUpVis"><!--for pop ups -->
 
         </div>
     </div>
 
     <div class="Conclusion"> <!--could be fleshed out some more-->
-        <p></p><!--1st paragraph-->
+        <header class="questionText">Where to go from here?</header>
+        <p class="descriptionText">
+            While birds might not understand windows, there is a simple solution. <br>
+            Patterned films put onto glass enable birds to avoid windows without disrupting human visibility through the window. <br> <br>
 
-        <header>Where to go from here?</header>
-        <p></p><!--2nd paragraph-->
+            Pattern films have already made a difference on campus- <br>
+            they have successfully reduced bird deaths at Frances Searle and East Kellogg. <br> <br>
+
+            The Sustainability Committee of ASG has organized a campus wide petition to put plastic film on the windows of Mudd Library, <br>
+            which makes up over 14% of yearly collisions at Northwestern. <br> <br>
+
+            By signing this petition and spreading awareness throughout our community, <br>
+            we can work towards making the Northwestern campus bird-safe. INSERT LINK
+        </p>
         <a></a><!--ASG link-->
 
-        <header>Where does our data come from?</header>
+        <header class="questionText">Where does our data come from?</header>
+        <p class="dataBackground descriptionText">
+            Our data is collected by Chicago Bird Collision Monitors (INSERT LINK), a group of volunteers dedicated to protecting migratory birds such as the ones crossing Northwestern's campus each fall and spring. Part of this protection is collecting vast amounts of data regarding where and when bird collisions are occuring. It is important to note that the bird collision data is collected by humans and therefore is subject to error and bias. For example, buildings which allure more foot traffic could see more collisions recorded. However, this is to say that, if anything, the data collected by this organization is a lower estimate of the potential true number of collisions recorded quarterly. 
+            <br> <br>
+            Given the data available to us, our visualizations cover bird collisions recorded between 2017 to 2020. Averages shown in our visualizations were taken only over fall and spring quarters since the majority of collisions occur during those quarters when migratory birds are on the move. For the purposes of our visualizations, we consolidated bird collision direction into strictly North, South, East, and West building side bins, equally dividing NW, SW, NE, and SE amongst those categories for simplicity's sake. 
+        </p>
 
     </div>
 </body>

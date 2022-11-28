@@ -1,5 +1,57 @@
+body {
+  text-align: center;
+}
+
 h1,h2,h5 {
     font-family: Arial;
+}
+
+
+
+.overallTitle {
+  font-size: xx-large;
+  padding-top: 50px;
+}
+
+.descriptionText {
+  font-size: large;
+  line-height: 25px;
+}
+
+.questionText {
+  font-size: x-large;
+  font-style: italic;
+  margin: 40px;
+}
+
+.topThree {
+  display: flex;
+  justify-content: center;
+}
+
+.top3img {
+  height: 250px;
+  margin: 10px;
+  margin-bottom: 3px;
+}
+
+.buildingTitle {
+  font-size: large;
+  font-weight: bold;
+  margin: 0px;
+}
+
+.buildingStats {
+  margin: 0px;
+}
+
+.Visuals {
+  margin-top: 50px;
+}
+
+.dataBackground {
+  padding-left: 200px;
+  padding-right: 200px;
 }
 
 
