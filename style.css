@@ -204,6 +204,7 @@ body {
     background: #fff;
     border: 1px solid #666;
     width: 80vw;
+    max-width: 1500px;
     min-width: 1200px;
     height:700px;
     box-shadow: 0 0 50px rgba(0,0,0,0.5);
